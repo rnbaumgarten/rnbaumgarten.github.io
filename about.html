@@ -4,32 +4,65 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Get to Know Me | Your Name</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
     <nav>
-      <span class="brand">Your Name</span>
+      <span class="brand">Your Name<span>.</span></span>
       <a href="index.html">Home</a>
       <a href="about.html" class="active">Get to Know Me</a>
-      <a href="resume.html">Resume</a>
+      <a href="resume.html">Work &amp; Resume</a>
       <a href="projects.html">Personal Projects</a>
       <a href="misc.html">Misc</a>
     </nav>
   </header>
 
   <main>
-    <h1>Get to Know Me</h1>
-    <p>Write a few paragraphs here: where you're from, what you're passionate about, what you do when you're not working.</p>
+    <section class="page-hero">
+      <div class="wrap">
+        <h1>Get to know me!</h1>
+        <!-- ✏️ A one-line welcome -->
+        <p>A little about the person behind the work: what keeps me growing, and what I do when the laptop closes.</p>
+      </div>
+    </section>
+    <svg class="wave" viewBox="0 0 1440 50" preserveAspectRatio="none" aria-hidden="true"><path d="M0,30 C240,60 480,0 720,25 C960,50 1200,5 1440,30 L1440,50 L0,50 Z"/></svg>
 
-    <h2>Quick facts</h2>
-    <ul>
-      <li>Based in: [your location]</li>
-      <li>Currently into: [hobby, show, book]</li>
-      <li>Fun fact: [something memorable]</li>
-    </ul>
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>A bit about me</h2>
+        </div>
+        <!-- ✏️ YOUR STORY: a few paragraphs about you (singing, water, sports, leading, etc.) -->
+        <p>Write a few paragraphs here: where you're from, what lights you up, and what "work hard, play hard" looks like for you.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>My shelf</h2>
+          <p>Pick a shelf, then click any cover to flip it and see my take.</p>
+        </div>
+
+        <div class="shelf-tabs" id="shelf-tabs" role="tablist" aria-label="Shelves"></div>
+        <p class="shelf-intro" id="shelf-intro"></p>
+
+        <div class="shelf">
+          <div class="shelf-row" id="shelf-row"></div>
+        </div>
+        <div class="shelf-board"></div>
+        <p class="flip-hint">Tip: scroll sideways on the shelf if there are more titles.</p>
+      </div>
+    </section>
   </main>
 
   <footer>&copy; 2026 Your Name</footer>
+
+  <!-- ✏️ Edit your shelf contents in shelf-data.js (no need to touch shelf.js) -->
+  <script src="shelf-data.js"></script>
+  <script src="shelf.js"></script>
 </body>
 </html>
