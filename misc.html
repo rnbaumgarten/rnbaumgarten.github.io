@@ -4,30 +4,50 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Misc | Your Name</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
     <nav>
-      <span class="brand">Your Name</span>
+      <span class="brand">Your Name<span>.</span></span>
       <a href="index.html">Home</a>
       <a href="about.html">Get to Know Me</a>
-      <a href="resume.html">Resume</a>
+      <a href="resume.html">Work &amp; Resume</a>
       <a href="projects.html">Personal Projects</a>
       <a href="misc.html" class="active">Misc</a>
     </nav>
   </header>
 
   <main>
-    <h1>Misc</h1>
-    <p>A home for everything else: favorite links, book recommendations, photos, contact info.</p>
+    <section class="page-hero">
+      <div class="wrap">
+        <h1>Misc</h1>
+        <p>A home for everything else: favorite links, photos, and how to reach me.</p>
+      </div>
+    </section>
+    <svg class="wave" viewBox="0 0 1440 50" preserveAspectRatio="none" aria-hidden="true"><path d="M0,30 C240,60 480,0 720,25 C960,50 1200,5 1440,30 L1440,50 L0,50 Z"/></svg>
 
-    <h2>Contact</h2>
-    <ul>
-      <li>Email: <a href="mailto:you@example.com">you@example.com</a></li>
-      <li>LinkedIn: <a href="https://linkedin.com/in/your-profile">your-profile</a></li>
-      <li>GitHub: <a href="https://github.com/your-username">your-username</a></li>
-    </ul>
+    <section class="section">
+      <div class="wrap">
+        <div class="grid">
+          <div class="card">
+            <h3>Say hello</h3>
+            <ul class="contact-list">
+              <!-- ✏️ Your real contact details -->
+              <li>Email: <a href="mailto:you@example.com">you@example.com</a></li>
+              <li>LinkedIn: <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener">your-profile</a></li>
+              <li>GitHub: <a href="https://github.com/your-username" target="_blank" rel="noopener">your-username</a></li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Favorite links</h3>
+            <p>Add links to things you love: a playlist, a team you follow, a favorite spot on the water.</p>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer>&copy; 2026 Your Name</footer>
