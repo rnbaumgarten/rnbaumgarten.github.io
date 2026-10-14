@@ -4,34 +4,116 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Personal Projects | Your Name</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
     <nav>
-      <span class="brand">Your Name</span>
+      <span class="brand">Your Name<span>.</span></span>
       <a href="index.html">Home</a>
       <a href="about.html">Get to Know Me</a>
-      <a href="resume.html">Resume</a>
+      <a href="resume.html">Work &amp; Resume</a>
       <a href="projects.html" class="active">Personal Projects</a>
       <a href="misc.html">Misc</a>
     </nav>
   </header>
 
   <main>
-    <h1>Personal Projects</h1>
+    <section class="page-hero">
+      <div class="wrap">
+        <h1>Personal Projects</h1>
+        <p>What I get up to outside of work: things I've made, causes I'm part of, and places I've been.</p>
+      </div>
+    </section>
+    <svg class="wave" viewBox="0 0 1440 50" preserveAspectRatio="none" aria-hidden="true"><path d="M0,30 C240,60 480,0 720,25 C960,50 1200,5 1440,30 L1440,50 L0,50 Z"/></svg>
 
-    <!-- Copy this whole card block for each new project -->
-    <div class="card">
-      <h3>Project Name</h3>
-      <p>One or two sentences on what it is, why you made it, and what you learned.</p>
-      <p><a href="https://github.com/your-username/your-repo">View on GitHub &rarr;</a></p>
-    </div>
+    <!-- ===== Projects ===== -->
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Projects</h2>
+        </div>
+        <div class="grid">
 
-    <div class="card">
-      <h3>Another Project</h3>
-      <p>Description goes here.</p>
-    </div>
+          <!-- ✏️ Copy this whole card for each project.
+               Photos: put small images in images/projects/ and update the src.
+               Delete one of the two .ph boxes if you only have one photo. -->
+          <div class="card">
+            <div class="photos">
+              <div class="ph">Photo 1<img src="images/projects/project1-a.jpg" alt="" onerror="this.remove()"></div>
+              <div class="ph">Photo 2<img src="images/projects/project1-b.jpg" alt="" onerror="this.remove()"></div>
+            </div>
+            <h3>Project Name</h3>
+            <p>What it is, why you started it, and what you enjoyed most.</p>
+            <span class="tag">Singing</span>
+            <p><a class="card-link" href="#">Learn more &rarr;</a></p>
+          </div>
+
+          <div class="card">
+            <div class="photos">
+              <div class="ph">Photo<img src="images/projects/project2-a.jpg" alt="" onerror="this.remove()"></div>
+            </div>
+            <h3>Another Project</h3>
+            <p>A sentence or two about it.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Organizations ===== -->
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Organizations I'm involved in</h2>
+          <p>Communities and causes I show up for.</p>
+        </div>
+        <div class="grid">
+          <div class="card">
+            <h3>Organization Name</h3>
+            <p class="meta">Your role &middot; Since 2022</p>
+            <p>What the org does and what you do with them.</p>
+            <p><a class="card-link" href="https://example.com" target="_blank" rel="noopener">Visit website &rarr;</a></p>
+          </div>
+          <div class="card">
+            <h3>Another Organization</h3>
+            <p class="meta">Your role &middot; Since 2020</p>
+            <p>A short note on why it matters to you.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Trips ===== -->
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Big trips</h2>
+          <p>The adventures I still talk about.</p>
+        </div>
+        <div class="grid">
+          <div class="card">
+            <div class="photos">
+              <div class="ph">Trip photo<img src="images/trips/trip1-a.jpg" alt="" onerror="this.remove()"></div>
+              <div class="ph">Trip photo<img src="images/trips/trip1-b.jpg" alt="" onerror="this.remove()"></div>
+            </div>
+            <h3>Destination</h3>
+            <p class="meta">Month Year</p>
+            <p>A favorite moment or what made the trip special.</p>
+          </div>
+          <div class="card">
+            <div class="photos">
+              <div class="ph">Trip photo<img src="images/trips/trip2-a.jpg" alt="" onerror="this.remove()"></div>
+            </div>
+            <h3>Another Destination</h3>
+            <p class="meta">Month Year</p>
+            <p>Beach, boat, mountain, or stage: tell us about it.</p>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer>&copy; 2026 Your Name</footer>
