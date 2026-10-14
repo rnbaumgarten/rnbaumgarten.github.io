@@ -3,37 +3,74 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Home | Rachel Baumgarten</title>
+  <title>Home | Your Name</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
     <nav>
-      <span class="brand">Your Name</span>
+      <span class="brand">Your Name<span>.</span></span>
       <a href="index.html" class="active">Home</a>
       <a href="about.html">Get to Know Me</a>
-      <a href="resume.html">Resume</a>
+      <a href="resume.html">Work &amp; Resume</a>
       <a href="projects.html">Personal Projects</a>
       <a href="misc.html">Misc</a>
     </nav>
   </header>
 
   <main>
-    <h1>Hi, I'm Your Name.</h1>
-    <p>Welcome to my site! I'm a [your role or field] interested in [your interests]. Use the menu above to look around.</p>
-    <p>
-      <a class="button" href="resume.html">View my resume</a>
-    </p>
+    <section class="hero">
+      <div class="wrap hero-grid">
 
-    <h2>Where to start</h2>
-    <div class="card">
-      <h3>Get to Know Me</h3>
-      <p>A bit about who I am outside of work. <a href="about.html">Read more &rarr;</a></p>
-    </div>
-    <div class="card">
-      <h3>Personal Projects</h3>
-      <p>Things I've built for fun. <a href="projects.html">See projects &rarr;</a></p>
-    </div>
+        <!-- ✏️ PHOTO: save your picture as images/me.jpg (create an "images" folder).
+             Until then, the blue box with text shows instead. -->
+        <div class="photo-frame">
+          <span class="photo-fallback">Your photo here<br>(images/me.jpg)</span>
+          <img src="images/me.jpg" alt="Photo of Your Name" onerror="this.remove()">
+        </div>
+
+        <div class="hero-text">
+          <p class="eyebrow">Hi there! 👋</p>
+          <h1>I'm Your Name.</h1>
+          <!-- ✏️ Your title and company -->
+          <p class="tagline">Your Job Title &middot; Your Company</p>
+
+          <!-- ✏️ YOUR WRITEUP: replace these paragraphs with your own words about your work -->
+          <p>Write two or three sentences here about what you do and what you love about it. Lead with energy: what gets you excited to start the day?</p>
+          <p>Add a second short paragraph if you like, maybe about the kind of teams you lead or the problems you enjoy solving.</p>
+
+          <div class="btn-row">
+            <!-- ✏️ Swap in your real LinkedIn URL -->
+            <a class="button" href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener">Connect on LinkedIn</a>
+            <a class="button ghost" href="about.html">Get to know me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="tiles">
+          <a class="tile" href="about.html">
+            <div class="emoji">📚</div>
+            <h3>Get to Know Me</h3>
+            <p>What I'm reading, watching, and listening to.</p>
+          </a>
+          <a class="tile" href="resume.html">
+            <div class="emoji">🏆</div>
+            <h3>Work &amp; Resume</h3>
+            <p>What I've owned and the work I'm proudest of.</p>
+          </a>
+          <a class="tile" href="projects.html">
+            <div class="emoji">🌊</div>
+            <h3>Personal Projects</h3>
+            <p>Side projects, causes I care about, and big trips.</p>
+          </a>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer>&copy; 2026 Your Name</footer>
