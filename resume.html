@@ -3,46 +3,123 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Resume | Your Name</title>
+  <title>Work &amp; Resume | Your Name</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
     <nav>
-      <span class="brand">Your Name</span>
+      <span class="brand">Your Name<span>.</span></span>
       <a href="index.html">Home</a>
       <a href="about.html">Get to Know Me</a>
-      <a href="resume.html" class="active">Resume</a>
+      <a href="resume.html" class="active">Work &amp; Resume</a>
       <a href="projects.html">Personal Projects</a>
       <a href="misc.html">Misc</a>
     </nav>
   </header>
 
   <main>
-    <h1>Resume</h1>
-    <p>
-      <!-- Put your PDF in the same folder and name it resume.pdf -->
-      <a class="button" href="resume.pdf">Download PDF</a>
-    </p>
+    <section class="page-hero">
+      <div class="wrap">
+        <h1>Work &amp; Resume</h1>
+        <!-- ✏️ One-line intro -->
+        <p>The areas I've owned, the projects I'm proudest of, and where I've worked.</p>
+      </div>
+    </section>
+    <svg class="wave" viewBox="0 0 1440 50" preserveAspectRatio="none" aria-hidden="true"><path d="M0,30 C240,60 480,0 720,25 C960,50 1200,5 1440,30 L1440,50 L0,50 Z"/></svg>
 
-    <h2>Experience</h2>
-    <div class="card">
-      <h3>Job Title &middot; Company</h3>
-      <p><em>Month 2024 &ndash; Present</em></p>
-      <ul>
-        <li>Accomplishment or responsibility</li>
-        <li>Another accomplishment, ideally with a result or number</li>
-      </ul>
-    </div>
+    <!-- ===== Ownership areas ===== -->
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Areas I've owned</h2>
+          <p>The things I've been trusted to run, build, or turn around.</p>
+        </div>
+        <div class="grid">
+          <!-- ✏️ Copy a whole <div class="card"> block to add more -->
+          <div class="card">
+            <h3>Ownership Area One</h3>
+            <p>One or two sentences on what you were responsible for and the impact you had.</p>
+            <span class="tag">Strategy</span><span class="tag">Team lead</span>
+          </div>
+          <div class="card">
+            <h3>Ownership Area Two</h3>
+            <p>Describe the scope: team size, budget, customers, or systems.</p>
+            <span class="tag">Operations</span>
+          </div>
+          <div class="card">
+            <h3>Ownership Area Three</h3>
+            <p>What changed because you owned it?</p>
+            <span class="tag">Growth</span>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <h2>Education</h2>
-    <div class="card">
-      <h3>Degree &middot; University</h3>
-      <p><em>Graduation year</em></p>
-    </div>
+    <!-- ===== Favorite projects ===== -->
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Favorite work projects</h2>
+          <p>The ones I'd happily tell you about over coffee.</p>
+        </div>
+        <div class="grid">
+          <div class="card">
+            <h3>Project Name</h3>
+            <p class="meta">Company &middot; 2025</p>
+            <p>What the goal was, what you did, and the result. Numbers make it pop.</p>
+          </div>
+          <div class="card">
+            <h3>Project Name</h3>
+            <p class="meta">Company &middot; 2023</p>
+            <p>Another project you're proud of.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <h2>Skills</h2>
-    <p>Skill one, Skill two, Skill three</p>
+    <!-- ===== Work history ===== -->
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Where I've worked</h2>
+        </div>
+        <ul class="timeline">
+          <!-- ✏️ One <li> per job, newest first. Copy and paste to add more (up to 5, or more). -->
+          <li>
+            <h3>Job Title &middot; <a href="https://example.com" target="_blank" rel="noopener">Company Name</a></h3>
+            <p class="when">2024 &ndash; Present</p>
+            <p>One line on your role.</p>
+          </li>
+          <li>
+            <h3>Job Title &middot; <a href="https://example.com" target="_blank" rel="noopener">Company Name</a></h3>
+            <p class="when">2021 &ndash; 2024</p>
+            <p>One line on your role.</p>
+          </li>
+          <li>
+            <h3>Job Title &middot; <a href="https://example.com" target="_blank" rel="noopener">Company Name</a></h3>
+            <p class="when">2018 &ndash; 2021</p>
+            <p>One line on your role.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== Resume link ===== -->
+    <section class="section">
+      <div class="wrap">
+        <div class="callout">
+          <div>
+            <h3>Want the full picture?</h3>
+            <p>I'm not actively looking, but my full resume is here if you're curious.</p>
+          </div>
+          <!-- ✏️ Put your PDF in this folder named resume.pdf -->
+          <a class="button" href="resume.pdf" target="_blank" rel="noopener">View my resume (PDF)</a>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer>&copy; 2026 Your Name</footer>
