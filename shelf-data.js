@@ -52,6 +52,20 @@ const SHELVES = [
         isbn: "978-1984818324",
         take: "This book saved my life, and I recommend it to anyone who is working hard and needs help staying afloat",
         link: "https://www.burnoutbook.net/"
+      },
+      {
+        title: "10% Happier",
+        by: "Dan Harris",
+        isbn: "",
+        take: "",
+        link: ""
+      }
+      {
+        title: "This Is Where You Belong: The Art and Science of Living the Place You Live",
+        by: "Melody Warnick",
+        isbn: "",
+        take: "",
+        link: ""
       }
     ]
   },
@@ -61,14 +75,54 @@ const SHELVES = [
     intro: "Books I'm reading for the joy of it.",
     items: [
       {
-        title: "Fun Book One",
-        by: "Author Name",
+        title: "Taste: My Life Through Food",
+        by: "Stanley Tucci",
         isbn: "",
         take: "SAMPLE: Why you love it, in a sentence or two."
       },
       {
-        title: "Fun Book Two",
-        by: "Author Name",
+        title: "Dungeon Crawler Carl",
+        by: "Matt Dinniman",
+        take: "SAMPLE: Add as many as you like."
+      },
+      {
+        title: "When Breath Becomes Air",
+        by: "Paul Kalanithi",
+        take: "SAMPLE: Add as many as you like."
+      },,
+      {
+        title: "Babel",
+        by: "R.F. Kuang",
+        take: "SAMPLE: Add as many as you like."
+      }
+      {
+        title: "Where'd You Go, Bernadette",
+        by: "Maria Semple",
+        take: "SAMPLE: Add as many as you like."
+      },
+      {
+        title: "Fun Home: A Family Tragicomic",
+        by: "Alison Bechdel",
+        take: "SAMPLE: Add as many as you like."
+      },
+      {
+        title: "A History of the World in 6 Glasses",
+        by: "Tom Standage",
+        take: "SAMPLE: Add as many as you like."
+      },
+      {
+        title: "Ulysses",
+        by: "James Joyce",
+        take: "SAMPLE: Add as many as you like."
+      },
+      {
+        title: "Sphere",
+        by: "Michael Crichton",
+        take: "SAMPLE: Add as many as you like."
+      },
+      {
+        title: "The Well of Loneliness",
+        by: "Radclyffe Hall",
         take: "SAMPLE: Add as many as you like."
       }
     ]
