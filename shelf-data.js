@@ -59,7 +59,7 @@ const SHELVES = [
         isbn: "",
         take: "",
         link: ""
-      }
+      },
       {
         title: "This Is Where You Belong: The Art and Science of Living the Place You Live",
         by: "Melody Warnick",
