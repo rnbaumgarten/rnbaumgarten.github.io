@@ -30,25 +30,28 @@ const SHELVES = [
   {
     id: "growth",
     label: "📈 Growth reads",
-    intro: "Books I'm reading for personal & professional development.",
+    intro: "Books for personal & professional development.",
     items: [
       {
-        title: "Atomic Habits",
-        by: "James Clear",
-        isbn: "9780735211292",
-        take: "SAMPLE: Replace with your own take, like one idea you've actually used at work.",
-        link: "https://jamesclear.com/atomic-habits"
+        title: "The Art of Gathering: How we Meet and Why It Matters",
+        by: "Priya Parker",
+        isbn: "978-1594634932",
+        take: "Whether it's for a tense meeting at work, or party planning with family, I have found this book invaluable to how I conduct gatherings.",
+        link: "https://www.priyaparker.com/the-art-of-gathering"
       },
       {
-        title: "Dare to Lead",
-        by: "Brené Brown",
-        isbn: "9780399592522",
-        take: "SAMPLE: What did this change about how you lead?"
+        title: "Unreasonable Hospitality: The Remarkable Power of Giving People More Than They Expect",
+        by: "Will Guidara",
+        isbn: "0593418573",
+        take: "This book inspires me to lead better even while I am still growing. I am enamored with the culture and values of hospitality, and seek to bring them into my personal and professional life",
+         link: "https://www.unreasonablehospitality.com/books"
       },
       {
-        title: "Your Next Growth Book",
-        by: "Author Name",
-        take: "SAMPLE: This one has no cover, so it shows a colored title card."
+        title: "Burnout: The Secret to Unlocking the Stress Cycle",
+        by: "Emily Nagoski,  Amelia Nagoski",
+        isbn: "978-1984818324",
+        take: "This book saved my life, and I recommend it to anyone who is working hard and needs help staying afloat",
+        link: "https://www.burnoutbook.net/"
       }
     ]
   },
