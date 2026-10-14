@@ -89,12 +89,12 @@ const SHELVES = [
         title: "When Breath Becomes Air",
         by: "Paul Kalanithi",
         take: "SAMPLE: Add as many as you like."
-      },,
+      },
       {
         title: "Babel",
         by: "R.F. Kuang",
         take: "SAMPLE: Add as many as you like."
-      }
+      },
       {
         title: "Where'd You Go, Bernadette",
         by: "Maria Semple",
